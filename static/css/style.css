@@ -1,0 +1,278 @@
+:root {
+    --primary-color: #2B4570;
+    --accent-color: #FF6B6B;
+    --text-color: #2D3436;
+    --light-gray: #F7F7F7;
+    --border-radius: 12px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--light-gray);
+    padding: 20px;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+/* Category Menu Styles */
+.category-menu {
+    width: 280px;
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 15px;
+    box-shadow: var(--shadow);
+}
+
+.category-item {
+    margin-bottom: 12px;
+}
+
+.category-header {
+    padding: 14px;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    color: var(--primary-color);
+}
+
+.category-header:hover {
+    background-color: #E8EDF5;
+    transform: translateX(4px);
+}
+
+.category-header.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.category-content {
+    padding: 8px 4px;
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.category-content.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.furniture-item {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    margin: 4px 0;
+    font-size: 15px;
+}
+
+.furniture-item:hover {
+    background-color: var(--light-gray);
+    transform: translateX(4px);
+}
+
+/* Furniture Display Styles */
+.furniture-grid {
+    flex: 1;
+}
+
+.furniture-card {
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease;
+}
+
+.furniture-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Carousel Styles */
+.image-carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    touch-action: pan-y pinch-zoom;
+    background: var(--light-gray);
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.3s ease;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-image {
+    min-width: 100%;
+    height: 100%;
+    background-color: var(--light-gray);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.carousel-nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: var(--primary-color);
+    box-shadow: var(--shadow);
+    z-index: 2;
+    transition: all 0.2s ease;
+}
+
+.carousel-nav-button:hover {
+    background: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-nav-button.prev {
+    left: 16px;
+}
+
+.carousel-nav-button.next {
+    right: 16px;
+}
+
+.carousel-controls {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(43, 69, 112, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.carousel-dot:hover {
+    background-color: rgba(43, 69, 112, 0.5);
+}
+
+.carousel-dot.active {
+    background-color: var(--primary-color);
+    transform: scale(1.2);
+}
+
+/* Furniture Details Styles */
+.furniture-details {
+    padding: 24px;
+}
+
+.furniture-name {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--primary-color);
+}
+
+.furniture-price {
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.furniture-description {
+    color: #666;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.order-button {
+    width: 100%;
+    padding: 16px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.order-button:hover {
+    background-color: #FF5252;
+    transform: translateY(-2px);
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .category-menu {
+        width: 100%;
+    }
+
+    .image-carousel {
+        height: 300px;
+    }
+
+    .furniture-name {
+        font-size: 24px;
+    }
+
+    .furniture-price {
+        font-size: 20px;
+    }
+} 
