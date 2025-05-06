@@ -1,0 +1,27 @@
+{
+    "tables": [
+      {
+        "name": "Oak Table",
+        "images": ["oak1.jpg", "oak2.jpg"],
+        "price": "$150"
+      },
+      {
+        "name": "Glass Table",
+        "images": ["glass1.jpg"],
+        "price": "$200"
+      }
+    ],
+    "chairs": [
+      {
+        "name": "Leather Chair",
+        "images": ["leather1.jpg"],
+        "price": "$80"
+      },
+      {
+        "name": "Wooden Chair",
+        "images": ["wood1.jpg", "wood2.jpg"],
+        "price": "$60"
+      }
+    ]
+  }
+  

@@ -1,0 +1,12 @@
+{
+  "name": "furniture-telegram-webapp",
+  "version": "1.0.0",
+  "description": "Telegram Web App for furniture selection",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "author": "",
+  "license": "ISC"
+} 
