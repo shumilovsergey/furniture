@@ -8,7 +8,7 @@ function renderMainMenu() {
         <img src="./logo.svg" alt="Logo" style="width: 120px; height: auto; margin-bottom: 30px;">
         <ul class="menu-list" style="width: 100%; max-width: 400px; padding: 0; margin: 0;">
             <li onclick="showSection('Школьная мебель')" style="width: 100%; text-align: center; padding: 15px 0; cursor: pointer; border-bottom: 1px solid #ddd;">Школьная мебель</li>
-            <li onclick="showSection('chairs')" style="width: 100%; text-align: center; padding: 15px 0; cursor: pointer; border-bottom: 1px solid #ddd;">Детская мебель</li>
+            <li onclick="showSection('Детская мебель')" style="width: 100%; text-align: center; padding: 15px 0; cursor: pointer; border-bottom: 1px solid #ddd;">Детская мебель</li>
             
             <li onclick="showSection('qa')" style="width: 100%; text-align: center; padding: 15px 0; cursor: pointer;">Вопросы и ответы</li>
             <li onclick="showSection('about')" style="width: 100%; text-align: center; padding: 15px 0; cursor: pointer; border-bottom: 1px solid #ddd;">Про нас</li>
