@@ -1,0 +1,297 @@
+{
+    "Школьная мебель": [
+      {
+        "name": "Актовый зал, кресла",
+        "images": [
+          "school/Актовый зал, кресла/1.png", 
+          "school/Актовый зал, кресла/2.png",
+          "school/Актовый зал, кресла/3.png",
+          "school/Актовый зал, кресла/4.png"
+        ],
+        "price": "0"
+      },
+      
+      {
+        "name": "Акустическая мобильная перегородка",
+        "images": [
+          "school/Акустическая мобильная перегородка/1.jpg",
+          "school/Акустическая мобильная перегородка/2.jpg",
+          "school/Акустическая мобильная перегородка/3.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Акустические табуреты",
+        "images": [
+          "school/Акустические табуреты/1.jpg",
+          "school/Акустические табуреты/2.jpg",
+          "school/Акустические табуреты/3.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Акустический модуль",
+        "images": [
+          "school/Акустический модуль/1.jpg",
+          "school/Акустический модуль/1.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Библиотеки и Зоны отдыха",
+        "images": [
+          "school/Библиотеки и Зоны отдыха/1.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Детские стулья СТ",
+        "images": [
+          "school/Детские стулья СТ/1.jpg",
+          "school/Детские стулья СТ/2.jpg",
+          "school/Детские стулья СТ/3.jpg",
+          "school/Детские стулья СТ/4.jpg",
+          "school/Детские стулья СТ/5.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Домики БАРНИ",
+        "images": [
+          "school/Домики БАРНИ/1.jpg",
+          "school/Домики БАРНИ/2.jpg",
+          "school/Домики БАРНИ/3.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Мягкие стулья СТ-01",
+        "images": [
+          "school/Мягкие стулья СТ-01/1.jpg",
+          "school/Мягкие стулья СТ-01/2.jpg",
+          "school/Мягкие стулья СТ-01/3.jpg",
+          "school/Мягкие стулья СТ-01/4.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Парта с регулировкой Высоты и Наклона",
+        "images": [
+          "school/Парта с регулировкой Высоты и Наклона/1.jpg",
+          "school/Парта с регулировкой Высоты и Наклона/2.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Парты",
+        "images": [
+          "school/Парты/1.jpg",
+          "school/Парты/2.jpg",
+          "school/Парты/3.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Парты серии СТ",
+        "images": [
+          "school/Парты серии СТ/1.jpg",
+          "school/Парты серии СТ/2.jpg",
+          "school/Парты серии СТ/3.jpg",
+          "school/Парты серии СТ/4.jpg",
+          "school/Парты серии СТ/5.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Пуфы кубы",
+        "images": [
+          "school/Пуфы кубы/1.jpg",
+          "school/Пуфы кубы/2.jpg",
+          "school/Пуфы кубы/3.jpg",
+          "school/Пуфы кубы/4.jpg",
+          "school/Пуфы кубы/5.jpg",
+          "school/Пуфы кубы/6.jpg",
+          "school/Пуфы кубы/7.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Пуфы цилиндры",
+        "images": [
+          "school/Пуфы цилиндры/1.jpg",
+          "school/Пуфы цилиндры/2.jpg",
+          "school/Пуфы цилиндры/3.jpg",
+          "school/Пуфы цилиндры/4.jpg",
+          "school/Пуфы цилиндры/5.jpg",
+          "school/Пуфы цилиндры/6.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Растущие детские стулья СТ",
+        "images": [
+          "school/Растущие детские стулья СТ/1.jpg",
+          "school/Растущие детские стулья СТ/2.jpg",
+          "school/Растущие детские стулья СТ/3.jpg",
+          "school/Растущие детские стулья СТ/4.jpg",
+          "school/Растущие детские стулья СТ/5.jpg",
+          "school/Растущие детские стулья СТ/6.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стеллажи",
+        "images": [
+          "school/Стеллажи/1.jpg",
+          "school/Стеллажи/2.jpg",
+          "school/Стеллажи/3.jpg",
+          "school/Стеллажи/4.jpg",
+          "school/Стеллажи/5.jpg",
+          "school/Стеллажи/6.jpg",
+          "school/Стеллажи/7.jpg",
+          "school/Стеллажи/8.jpg",
+          "school/Стеллажи/9.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стол Jun",
+        "images": [
+          "school/Стол Jun/1.jpg",
+          "school/Стол Jun/2.jpg",
+          "school/Стол Jun/3.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стол-Парта трансформер",
+        "images": [
+          "school/Стол-Парта трансформер/1.jpg",
+          "school/Стол-Парта трансформер/2.jpg",
+          "school/Стол-Парта трансформер/3.jpg",
+          "school/Стол-Парта трансформер/4.jpg",
+          "school/Стол-Парта трансформер/5.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стул Junior C",
+        "images": [
+          "school/Стул Junior C/1.jpg",
+          "school/Стул Junior C/2.jpg",
+          "school/Стул Junior C/3.jpg",
+          "school/Стул Junior C/4.jpg",
+          "school/Стул Junior C/5.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стул Line Z",
+        "images": [
+          "school/Стул Line Z/1.jpg",
+          "school/Стул Line Z/2.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стул Line пятилучье",
+        "images": [
+          "school/Стул Line пятилучье/1.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стул PRO",
+        "images": [
+          "school/Стул PRO/1.jpg",
+          "school/Стул PRO/2.jpg",
+          "school/Стул PRO/3.jpg",
+          "school/Стул PRO/4.jpg",
+          "school/Стул PRO/5.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стул PRO mob",
+        "images": [
+          "school/Стул PRO mob/1.jpg",
+          "school/Стул PRO mob/2.jpg",
+          "school/Стул PRO mob/3.jpg",
+          "school/Стул PRO mob/4.jpg",
+          "school/Стул PRO mob/5.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стул Парта SEATTABLE",
+        "images": [
+          "school/Стул Парта SEATTABLE/1.jpg",
+          "school/Стул Парта SEATTABLE/2.jpg",
+          "school/Стул Парта SEATTABLE/3.jpg",
+          "school/Стул Парта SEATTABLE/4.jpg",
+          "school/Стул Парта SEATTABLE/5.jpg",
+          "school/Стул Парта SEATTABLE/6.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стул Сибилева СТБР",
+        "images": [
+          "school/Стул Сибилева СТБР/1.jpg",
+          "school/Стул Сибилева СТБР/2.jpg",
+          "school/Стул Сибилева СТБР/3.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стулья серии СТ 11",
+        "images": [
+          "school/Стулья серии СТ 11/1.jpg",
+          "school/Стулья серии СТ 11/2.jpg",
+          "school/Стулья серии СТ 11/3.jpg",
+          "school/Стулья серии СТ 11/4.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Стулья серии СТ-01",
+        "images": [
+          "school/Стулья серии СТ-01/1.jpg",
+          "school/Стулья серии СТ-01/2.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "Тумбы",
+        "images": [
+          "school/Тумбы/1.jpg",
+          "school/Тумбы/2.jpg"
+        ],
+        "price": "0"
+      },
+      {
+        "name": "ЭКРАНЫ-Радиаторы",
+        "images": [
+          "school/ЭКРАНЫ-Радиаторы/1.jpg",
+          "school/ЭКРАНЫ-Радиаторы/2.jpg",
+          "school/ЭКРАНЫ-Радиаторы/3.jpg",
+          "school/ЭКРАНЫ-Радиаторы/4.jpg"
+        ],
+        "price": "0"
+      }
+    ],
+
+    "chairs": [
+      {
+        "name": "Leather Chair",
+        "images": ["leather1.jpg"],
+        "price": "$80"
+      },
+      {
+        "name": "Wooden Chair",
+        "images": ["wood1.jpg", "wood2.jpg"],
+        "price": "$60"
+      }
+    ]
+  }
+  
