@@ -282,16 +282,7 @@
     ],
 
     "chairs": [
-      {
-        "name": "Leather Chair",
-        "images": ["leather1.jpg"],
-        "price": "$80"
-      },
-      {
-        "name": "Wooden Chair",
-        "images": ["wood1.jpg", "wood2.jpg"],
-        "price": "$60"
-      }
+
     ]
   }
   
