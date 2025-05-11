@@ -90,9 +90,9 @@ async function showSection(section) {
       details.appendChild(image);
     });
 
-    const priceEl = document.createElement('p');
-    priceEl.textContent = `Цена: ${item.price} руб.`;
-    details.appendChild(priceEl);
+    // const priceEl = document.createElement('p');
+    // priceEl.textContent = `Цена: ${item.price} руб.`;
+    // details.appendChild(priceEl);
 
     const buyBtn = document.createElement('button');
     buyBtn.className = 'buy-button';
