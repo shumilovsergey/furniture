@@ -2,6 +2,10 @@ let currentOpenFAQ = null;
 let currentOpenProduct = null;
 
 function renderMainMenu() {
+    const tg = window.Telegram.WebApp;
+    tg.expand(); // Try to expand full screen
+    tg.ready();  // Tell Telegram you're ready to display
+
     const content = document.getElementById('content');
     content.innerHTML = `
         <div style="display: flex; flex-direction: column; align-items: center; margin-top: 40px;">
