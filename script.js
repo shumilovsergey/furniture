@@ -76,47 +76,74 @@ async function showSection(section) {
   heading.textContent = section.charAt(0).toUpperCase() + section.slice(1);
   content.appendChild(heading);
 
-  items.forEach((item, idx) => {
-    const div = document.createElement('div');
-    div.className = 'product';
-    div.innerHTML = `<div class="product-name">${item.name}</div>`;
+items.forEach((item, idx) => {
+  const div = document.createElement('div');
+  div.className = 'product';
+  div.innerHTML = `<div class="product-name">${item.name}</div>`;
 
-    const details = document.createElement('div');
-    details.className = 'product-details';
+  const details = document.createElement('div');
+  details.className = 'product-details';
 
-    item.images.forEach(img => {
-      const image = document.createElement('img');
-      image.src = img;
-      image.alt = item.name;
-      image.style.width = '100%';
-      image.style.maxWidth = '300px';
-      image.style.marginBottom = '5px';
-      details.appendChild(image);
-    });
-
-    // const priceEl = document.createElement('p');
-    // priceEl.textContent = `Цена: ${item.price} руб.`;
-    // details.appendChild(priceEl);
-
-    const buyBtn = document.createElement('button');
-    buyBtn.className = 'buy-button';
-    buyBtn.textContent = 'Заказать';
-    buyBtn.setAttribute('data-id', `${section}-${idx}`);
-    details.appendChild(buyBtn);
-
-    div.appendChild(details);
-
-    div.querySelector('.product-name').addEventListener('click', () => {
-      if (currentOpenProduct && currentOpenProduct !== div) {
-        currentOpenProduct.querySelector('.product-details').style.display = 'none';
-      }
-      const display = details.style.display === 'block';
-      details.style.display = display ? 'none' : 'block';
-      currentOpenProduct = !display ? div : null;
-    });
-
-    content.appendChild(div);
+  item.images.forEach(img => {
+    const image = document.createElement('img');
+    image.src = img;
+    image.alt = item.name;
+    image.style.width = '100%';
+    image.style.maxWidth = '300px';
+    image.style.marginBottom = '5px';
+    details.appendChild(image);
   });
+
+  // const priceEl = document.createElement('p');
+  // priceEl.textContent = `Цена: ${item.price} руб.`;
+  // details.appendChild(priceEl);
+
+  const buyBtn = document.createElement('button');
+  buyBtn.className = 'buy-button';
+  buyBtn.textContent = 'Заказать';
+  buyBtn.setAttribute('data-id', `${section}-${idx}`);
+
+  // ✅ Telegram Mini App + POST logic
+  buyBtn.addEventListener('click', () => {
+    const tg = window.Telegram.WebApp;
+    const tgId = tg.initDataUnsafe?.user?.id;
+
+    const payload = {
+      tg_id: tgId,
+      name: item.name,
+      category: section,
+      price: item.price
+    };
+
+    fetch('http://45.131.41.34:5678', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    }).then(() => {
+      tg.close();
+    }).catch(err => {
+      console.error('Failed to send order:', err);
+    });
+  });
+
+  details.appendChild(buyBtn);
+  div.appendChild(details);
+
+  div.querySelector('.product-name').addEventListener('click', () => {
+    if (currentOpenProduct && currentOpenProduct !== div) {
+      currentOpenProduct.querySelector('.product-details').style.display = 'none';
+    }
+    const display = details.style.display === 'block';
+    details.style.display = display ? 'none' : 'block';
+    currentOpenProduct = !display ? div : null;
+  });
+
+  content.appendChild(div);
+});
+
+  
 
 }
 
