@@ -115,7 +115,7 @@ items.forEach((item, idx) => {
       price: item.price
     };
 
-    fetch('http://45.131.41.34:5678', {
+    fetch('https://belsi-backend.sh-development.ru', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
