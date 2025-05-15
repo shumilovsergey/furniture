@@ -105,6 +105,10 @@ items.forEach((item, idx) => {
     const tg = window.Telegram.WebApp;
     const tgId = tg.initDataUnsafe?.user?.id;
 
+    buyBtn.disabled = true;
+    const originalText = buyBtn.textContent;
+    buyBtn.textContent = '⏳ минуту';
+
     const payload = {
       tg_id: tgId,
       name: item.name,
