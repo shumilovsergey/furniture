@@ -83,10 +83,12 @@ items.forEach((item, idx) => {
 
   const details = document.createElement('div');
   details.className = 'product-details';
+  details.style.display = 'none'; // start hidden
 
   item.images.forEach(img => {
     const image = document.createElement('img');
-    image.src = img;
+    image.src = img; // you could set this to a low-res placeholder instead
+    image.loading = 'lazy'; // ✅ native lazy loading
     image.alt = item.name;
     image.style.width = '100%';
     image.style.maxWidth = '300px';
@@ -94,16 +96,11 @@ items.forEach((item, idx) => {
     details.appendChild(image);
   });
 
-  // const priceEl = document.createElement('p');
-  // priceEl.textContent = `Цена: ${item.price} руб.`;
-  // details.appendChild(priceEl);
-
   const buyBtn = document.createElement('button');
   buyBtn.className = 'buy-button';
   buyBtn.textContent = 'Заказать';
   buyBtn.setAttribute('data-id', `${section}-${idx}`);
 
-  // ✅ Telegram Mini App + POST logic
   buyBtn.addEventListener('click', () => {
     const tg = window.Telegram.WebApp;
     const tgId = tg.initDataUnsafe?.user?.id;
@@ -142,6 +139,7 @@ items.forEach((item, idx) => {
 
   content.appendChild(div);
 });
+
 
   
 
