@@ -116,7 +116,7 @@ items.forEach((item, idx) => {
       price: item.price
     };
 
-    fetch('https://belsi-backend.sh-development.ru', {
+    fetch('https://belsi-backend.sh-development.ru/product', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
