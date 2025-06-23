@@ -536,17 +536,7 @@
         "price": "0"
       },
       {
-        "name": "Черновая",
-        "images": [
-          "kids/Черновая/1.jpg",
-          "kids/Черновая/2.jpg",
-          "kids/Черновая/3.jpg",
-          "kids/Черновая/4.jpg"
-        ],
-        "price": "0"
-      },
-      {
-        "name": "Шкафы BUBLE с крабиками",
+        "name": "Шкафы BUBBLE",
         "images": [
           "kids/Шкафы BUBLE с крабиками/1.jpg",
           "kids/Шкафы BUBLE с крабиками/2.jpg",
