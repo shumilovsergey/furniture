@@ -39,7 +39,7 @@ async function showSection(section) {
     const aboutHeading = document.createElement('h2');
     aboutHeading.textContent = 'Belsi';
     const aboutText = document.createElement('p');
-    aboutText.textContent = "- российский бренд функциональной дизайнерской мебели с 2011 г. Основатели проекта Белим Наталия и Алексей Сибилев в своей работеруководствуются принципом Функционал.Позитив.Эмоции";
+    aboutText.textContent = "- российский бренд функциональной дизайнерской мебели с 2011 г. Основатели проекта Белим Наталия и Алексей Сибилев в своей работе руководствуются принципом Функционал.Позитив.Эмоции";
     content.appendChild(aboutHeading);
     content.appendChild(aboutText);
     return;
