@@ -308,8 +308,8 @@
       {
         "name": "Мобильный модуль луноход",
         "images": [
-          "school/Мобильный модуль луноход/1.jpg",
-          "school/Мобильный модуль луноход/2.jpg"
+          "school/mob_lun/1.jpg",
+          "school/mob_lun/2.jpg"
         ],
         "price": "0"
       },
@@ -325,7 +325,7 @@
       {
         "name": "Игровой модуль",
         "images": [
-          "school/Игровой модуль/1.jpg"
+          "school/igrovoy_modul/1.jpg"
         ],
         "price": "0"
       },
